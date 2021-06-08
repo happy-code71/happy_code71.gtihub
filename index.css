@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+#Jgg{
+	width: 400px;
+	height: 450px;
+	margin: 50px auto;
+	border: 1px solid gray;
+}
+.J_content{
+	width: 300px;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.J_content>.lattice{
+	width: 95px;
+	height: 100px;
+	margin-top: 10px;
+	background-color: rgb(255,166,0);
+	border-radius: 10px;
+}
+.star,.end{
+	width: 320px;
+	height: 40px;
+	border: 1px solid rgb(255,166,0);
+	color: rgb(255,166,0);
+	border-radius: 5px;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 40px;
+}
+.star:hover,.end:hover{
+	color: white;
+	background-color: rgb(255,166,0);
+	cursor: pointer;
+}
